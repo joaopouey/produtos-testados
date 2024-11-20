@@ -1,0 +1,63 @@
+{
+    "robos-aspiradores": {
+      "title": "Robôs Aspiradores",
+      "description": "Encontre os melhores robôs aspiradores de 2024, escolhidos com base nas avaliações de especialistas.",
+      "products": [
+        {
+          "rank": "TOP 1",
+          "name": "Robô aspirador de pó ULTRA",
+          "description": "Robô aspirador de alta eficiência e baixa manutenção para uma limpeza automática em sua casa.",
+          "image": "robo-aspirador-ultra.jpg"
+        },
+        {
+          "rank": "TOP 2",
+          "name": "Robô aspirador de pó RoboRock Q7 Max",
+          "description": "Robô aspirador com mop integrado, ideal para limpeza úmida e seca.",
+          "image": "robo-aspirador-max.jpg"
+        },
+        {
+          "rank": "TOP 3",
+          "name": "Robô Aspirador de Pó Electrolux Ergo",
+          "description": "Robô aspirador compacto e silencioso, ideal para apartamentos.",
+          "image": "robo-aspirador-electrolux.jpg"
+        }
+      ]
+    },
+    "aspiradores-verticais": {
+      "title": "Aspiradores Verticais",
+      "description": "Descubra os aspiradores verticais mais potentes e eficientes.",
+      "products": [
+        {
+          "rank": "TOP 1",
+          "name": "Aspirador Vertical PowerForce",
+          "description": "Aspirador vertical com forte sucção e design ergonômico.",
+          "image": "aspirador-vertical-powerforce.jpg"
+        },
+        {
+          "rank": "TOP 2",
+          "name": "Aspirador Vertical CleanMaster",
+          "description": "Aspirador leve e silencioso com filtro HEPA.",
+          "image": "aspirador-vertical-cleanmaster.jpg"
+        }
+      ]
+    },
+    "assistente-virtual": {
+      "title": "Assistente Virtual",
+      "description": "Melhores dispositivos de assistente virtual para sua casa inteligente.",
+      "products": [
+        {
+          "rank": "TOP 1",
+          "name": "Amazon Echo Dot",
+          "description": "Assistente virtual da Amazon com Alexa integrada.",
+          "image": "echo-dot.jpg"
+        },
+        {
+          "rank": "TOP 2",
+          "name": "Google Nest Mini",
+          "description": "Assistente virtual do Google com comandos de voz.",
+          "image": "nest-mini.jpg"
+        }
+      ]
+    }
+  }
+  
