@@ -1,18 +1,21 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
 
 const categories = [
-  { name: "Aspiradores Verticais (com fio)", id: "robos-aspiradores", image: "aspirador-fio.jpg" },
-  { name: "Aspiradores Verticais (sem fio)", image: "aspirador-sem-fio.jpg" },
-  { name: "Assistente Virtual (Alexa/Echo)", image: "assistente-virtual.jpg" },
-  { name: "Cadeiras Gamer", image: "cadeira-gamer.jpg" },
-  { name: "Cafeteiras Elétricas", image: "cafeteira.jpg" },
-  { name: "Carrinhos (com bebê conforto)", image: "carrinho-bebe.jpg" },
-  { name: "Fones Bluetooth", image: "fones-bluetooth.jpg" },
-  { name: "Fritadeiras Elétricas (Airfryer)", image: "fritadeira.jpg" },
-  { name: "Liquidificadores", image: "liquidificador.jpg" },
-  { name: "Purificadores de Água", image: "purificador.jpg" },
-  { name: "Robôs Aspiradores", image: "robo-aspirador.jpg" },
+  {
+    name: 'Aspiradores Verticais (com fio)',
+    id: 'robos-aspiradores',
+    image: 'aspirador-fio.jpg',
+  },
+  { name: 'Aspiradores Verticais (sem fio)', image: 'aspirador-sem-fio.jpg' },
+  { name: 'Assistente Virtual (Alexa/Echo)', image: 'assistente-virtual.jpg' },
+  { name: 'Cadeiras Gamer', image: 'cadeira-gamer.jpg' },
+  { name: 'Cafeteiras Elétricas', image: 'cafeteira.jpg' },
+  { name: 'Carrinhos (com bebê conforto)', image: 'carrinho-bebe.jpg' },
+  { name: 'Fones Bluetooth', image: 'fones-bluetooth.jpg' },
+  { name: 'Fritadeiras Elétricas (Airfryer)', image: 'fritadeira.jpg' },
+  { name: 'Liquidificadores', image: 'liquidificador.jpg' },
+  { name: 'Purificadores de Água', image: 'purificador.jpg' },
+  { name: 'Robôs Aspiradores', image: 'robo-aspirador.jpg' },
 ];
 
 const Categories = () => {

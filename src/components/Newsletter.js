@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Newsletter = () => {
   return (
@@ -6,13 +6,13 @@ const Newsletter = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center space-y-4 md:space-y-0">
         {/* Input e botão */}
         <div className="flex items-center w-[443px] h-[57px] bg-gray-200 border-2 border-[#ccff00] rounded-lg px-4 py-2">
-          <input 
-            type="email" 
-            placeholder="seu.email.aqui@newsletter.com" 
+          <input
+            type="email"
+            placeholder="seu.email.aqui@newsletter.com"
             className="flex-grow bg-transparent outline-none text-gray-700 placeholder-gray-500 rounded-lg"
           />
           <button className="flex items-center justify-center rounded-full h-[24px] w-[24px]">
-            <img src="botao_newsletter.png" alt="Enviar" className="h-6 w-6"/>
+            <img src="botao_newsletter.png" alt="Enviar" className="h-6 w-6" />
           </button>
         </div>
 
@@ -35,7 +35,5 @@ const Newsletter = () => {
     </section>
   );
 };
-
-
 
 export default Newsletter;

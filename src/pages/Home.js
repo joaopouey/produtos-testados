@@ -1,12 +1,12 @@
-import React from "react";
-import Hero from "../components/Hero";
-import Newsletter from "../components/Newsletter";
-import Navbar from "../components/Navbar";
+import React from 'react';
+import Hero from '../components/Hero';
+import Navbar from '../components/Navbar';
+import Newsletter from '../components/Newsletter';
 
 const Home = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Hero />
       <Newsletter />
     </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Contact = () => {
   return (
@@ -10,7 +10,7 @@ const Contact = () => {
           className="w-40 h-40 md:w-56 md:h-56"
         />
       </div>
-      
+
       <h1 className="text-3xl font-bold mb-4">Contato</h1>
       <p className="text-gray-700 mb-8">
         Você tem alguma dúvida, comentário ou sugestão? <br />
@@ -19,7 +19,10 @@ const Contact = () => {
 
       <form className="max-w-md mx-auto">
         <div className="mb-4">
-          <label htmlFor="name" className="block text-left text-gray-700 font-medium">
+          <label
+            htmlFor="name"
+            className="block text-left text-gray-700 font-medium"
+          >
             Nome*
           </label>
           <input
@@ -32,7 +35,10 @@ const Contact = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="surname" className="block text-left text-gray-700 font-medium">
+          <label
+            htmlFor="surname"
+            className="block text-left text-gray-700 font-medium"
+          >
             Sobrenome
           </label>
           <input
@@ -44,7 +50,10 @@ const Contact = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="email" className="block text-left text-gray-700 font-medium">
+          <label
+            htmlFor="email"
+            className="block text-left text-gray-700 font-medium"
+          >
             E-mail*
           </label>
           <input
@@ -57,7 +66,10 @@ const Contact = () => {
         </div>
 
         <div className="mb-6">
-          <label htmlFor="message" className="block text-left text-gray-700 font-medium">
+          <label
+            htmlFor="message"
+            className="block text-left text-gray-700 font-medium"
+          >
             Mensagem*
           </label>
           <textarea
