@@ -2,23 +2,40 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <section className="bg-[#002642] text-white py-10 px-4">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-        <div className="w-[443px] h-[57px] relative">
-          <div className="w-[443px] h-[57px] left-0 top-0 absolute bg-[#d9d9d9] rounded-lg border-2 border-[#ccff00]" />
-          <div className="left-[27px] top-[19px] absolute text-[#111111]/70 text-base font-light font-['Roboto']">seu.email.aqui@newsletter.com</div>
+    <section className="bg-[#002642] text-white py-10 px-4 m-[30px] rounded-[30px]">
+      <div className="container mx-auto flex flex-col md:flex-row items-center space-y-4 md:space-y-0">
+        {/* Input e botão */}
+        <div className="flex items-center w-[443px] h-[57px] bg-gray-200 border-2 border-[#ccff00] rounded-lg px-4 py-2">
+          <input 
+            type="email" 
+            placeholder="seu.email.aqui@newsletter.com" 
+            className="flex-grow bg-transparent outline-none text-gray-700 placeholder-gray-500 rounded-lg"
+          />
+          <button className="flex items-center justify-center rounded-full h-[24px] w-[24px]">
+            <img src="botao_newsletter.png" alt="Enviar" className="h-6 w-6"/>
+          </button>
         </div>
 
-          <button className="bg-gray-200 text-blue-900 p-2 rounded-full ml-2 hover:bg-gray-300 transition">
-            ➔
-          </button>
-        <div className="text-center md:text-right md:w-1/3">
-          <h3 className="text-lg font-semibold">Assine nossa <span className="text-lime-400">newsletter</span> e faça a escolha certa, sempre.</h3>
-          <p className="text-gray-400 text-sm">Receba as últimas análises e recomendações exclusivas!</p>
+        {/* Texto da newsletter */}
+        <div className="ml-[5%]">
+          <span className="text-[#f2f2f2] text-2xl font-light font-['Montserrat'] tracking-tight">
+            Assine nossa
+          </span>{' '}
+          <span className="text-[#f2f2f2] text-2xl font-medium font-['Montserrat'] tracking-tight">
+            newsletter
+          </span>{' '}
+          <span className="text-[#f2f2f2] text-2xl font-light font-['Montserrat'] tracking-tight">
+            e faça a escolha certa, sempre.
+          </span>
+          <p className="text-gray-400 text-sm">
+            Receba as últimas análises e recomendações exclusivas!
+          </p>
         </div>
       </div>
     </section>
   );
 };
+
+
 
 export default Newsletter;
