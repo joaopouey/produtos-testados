@@ -10,7 +10,7 @@ const Hero = () => {
       }}
     >
       <div className="w-[528px] h-[207px] ml-[15%] flex-col  items-start gap-6 ">
-        <h1 className="text-[#111111] text-[32px] font-normal font-['Montserrat']">
+        <h1 className="text-[#111111] xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl font-normal font-['Montserrat']">
           Opiniões que você <span className="font-medium">pode confiar</span>,
           escolhas que fazem a diferença.
         </h1>
