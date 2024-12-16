@@ -4,7 +4,7 @@ const Newsletter = () => {
   return (
     <section className="bg-[#002642] text-white py-10 px-4 m-4 rounded-[30px] grid grid-cols-1 md:grid-cols-2">
       {/* grid 1 - Input e botão */}
-      <div className="flex items-center w-full h-14 bg-gray-200 border-2 border-[#ccff00] rounded-lg px-4 py-2">
+      <div className="flex items-center max-w-[400px] h-14 bg-gray-200 border-2 border-[#ccff00] rounded-lg px-4 py-2">
         <input
           type="email"
           placeholder="seu.email.aqui@newsletter.com"
@@ -16,7 +16,7 @@ const Newsletter = () => {
       </div>
 
       {/* grid 2 - Texto da newsletter */}
-      <div className="ml-[5%] mt-4 md:mt-0">
+      <div className="mt-4 sm:mt-0 sm:ml-8">
         <span className="text-[#f2f2f2] text-2xl font-light font-['Montserrat'] tracking-tight">
           Assine nossa
         </span>{' '}
@@ -26,7 +26,7 @@ const Newsletter = () => {
         <span className="text-[#f2f2f2] text-2xl font-light font-['Montserrat'] tracking-tight">
           e faça a escolha certa, sempre.
         </span>
-        <p className="text-gray-400 text-sm">
+        <p className="text-gray-400 text-sm mt-2">
           Receba as últimas análises e recomendações exclusivas!
         </p>
       </div>

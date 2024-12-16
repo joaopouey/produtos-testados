@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="w-auto h-20 relative ml-[5%]">
+    <div className="w-auto h-20 relative">
       <div className="w-full h-[0px] left-0 top-0 opacity-75 border border-[#002642]/50">
-        <div className="ml-[10%]">
+        <div className="ml-4 mb-4">
           <div className="left-[126px] top-[15px] mt-2 align-left text-[#333333]/80 text-xs font-light font-['Roboto']">
             Copyright © 2024 produtostestados.com.br | Todos os direitos
             reservados.
