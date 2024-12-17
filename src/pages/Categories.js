@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageCarousel from '../components/Carousel';
 import Navbar from '../components/Navbar';
 
 const categories = [
@@ -23,6 +24,7 @@ const Categories = () => {
   return (
     <div>
       <Navbar />
+      <ImageCarousel />
       <div className="container mx-auto py-10 px-4">
         <h1 className="text-3xl font-bold text-center mb-6">
           Categorias: encontre os produtos mais bem avaliados aqui

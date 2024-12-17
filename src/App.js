@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/categories" element={<Categories />} />
+        <Route path="/categorias" element={<Categories />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
