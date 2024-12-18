@@ -3,15 +3,15 @@ import React, { useEffect, useState } from 'react';
 const ImageCarousel = () => {
   const slides = [
     {
-      image: '/carousel-1.jpg',
-      text: 'Confira os melhores aspirador robô de 2024.',
+      image: '/carrossel/carousel-1.jpg',
+      text: 'Confira os melhores aspiradores robô de 2024.',
     },
     {
-      image: '/carousel-2.jpg',
+      image: '/carrossel/carousel-2.jpg',
       text: 'Aspiradores versáteis escolhidos exclusivamente para você',
     },
     {
-      image: '/carousel-3.jpg',
+      image: '/carrossel/carousel-3.jpg',
       text: 'Asssistente virtual que torna sua casa mais inteligente.',
     },
   ];
@@ -39,17 +39,17 @@ const ImageCarousel = () => {
   }, []);
 
   return (
-    <div className="relative h-[150px] w-full overflow-hidden shadow-lg border-b-2 border-[#ccff00]">
+    <div className="relative h-[150px] sm:h-[430px] w-full overflow-hidden shadow-lg border-b-2 border-[#ccff00]">
       {/* Imagem do slide atual */}
       <img
         src={slides[currentIndex].image}
         alt={`Slide ${currentIndex}`}
-        className="h-[150px]  w-full"
+        className="h-full w-full object-cover"
       />
 
       {/* Texto do slide */}
-      <div className="absolute top-10 ml-5 w-60 text-white p-4">
-        <h1 className="text-[#f2f2f2] text-sm font-medium font-['Montserrat'] tracking-tight pl-2">
+      <div className="absolute w-[500px] text-white p-4 top-1/2 -translate-y-1/2 ml-16">
+        <h1 className="text-[#f2f2f2] text-sm sm:text-2xl font-medium font-['Montserrat'] tracking-tight pl-2">
           {slides[currentIndex].text}
         </h1>
       </div>
