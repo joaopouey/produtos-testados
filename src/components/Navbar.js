@@ -40,16 +40,16 @@ const Navbar = () => {
           isOpen ? 'flex' : 'hidden'
         } absolute sm:static sm:flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 items-start sm:items-center bg-white sm:bg-transparent text-black sm:text-white shadow-lg sm:shadow-none p-4 sm:p-0 rounded-lg sm:rounded-none`}
       >
-        <Link to="/home" className="hover:text-gray-300">
+        <Link to="/" className="hover:text-gray-300">
           Início
         </Link>
-        <Link to="/categories" className="hover:text-gray-300">
+        <Link to="/categorias" className="hover:text-gray-300">
           Categorias
         </Link>
-        <Link to="/about" className="hover:text-gray-300">
+        <Link to="/sobre" className="hover:text-gray-300">
           Quem somos?
         </Link>
-        <Link to="/contact" className="hover:text-gray-300">
+        <Link to="/contato" className="hover:text-gray-300">
           Contato
         </Link>
       </div>

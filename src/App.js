@@ -12,10 +12,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/categories" element={<Categories />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/categorias" element={<Categories />} />
+        <Route path="/sobre" element={<About />} />
+        <Route path="/contato" element={<Contact />} />
         <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
         <Route path="/produtos/:typeId" element={<ProductType />} />{' '}
         {/* Use "ProductType" aqui */}
