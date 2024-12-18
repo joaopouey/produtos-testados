@@ -39,17 +39,17 @@ const ImageCarousel = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[430px] mx-auto overflow-hidden rounded-lg shadow-lg">
+    <div className="relative h-[150px] w-full overflow-hidden shadow-lg border-b-2 border-[#ccff00]">
       {/* Imagem do slide atual */}
       <img
         src={slides[currentIndex].image}
         alt={`Slide ${currentIndex}`}
-        className="w-full object-cover"
+        className="h-[150px]  w-full"
       />
 
       {/* Texto do slide */}
-      <div className="absolute bottom-0 left-0 w-full text-white text-center p-4">
-        <h1 className="text-[#f2f2f2] text-[32px] font-normal font-['Montserrat'] tracking-tight pl-2">
+      <div className="absolute top-10 ml-5 w-60 text-white p-4">
+        <h1 className="text-[#f2f2f2] text-sm font-medium font-['Montserrat'] tracking-tight pl-2">
           {slides[currentIndex].text}
         </h1>
       </div>
@@ -57,7 +57,7 @@ const ImageCarousel = () => {
       {/* Botão Anterior */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-[#ccff00] p-2 rounded-full"
       >
         ❮
       </button>
@@ -65,7 +65,7 @@ const ImageCarousel = () => {
       {/* Botão Próximo */}
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-[#ccff00] p-2 rounded-full"
       >
         ❯
       </button>
