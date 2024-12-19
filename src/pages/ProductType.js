@@ -1,49 +1,51 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import productTypesData from '../data/products.json';
+import Navbar from '../components/Navbar';
+import categories_data from '../data/categories_data';
 
 const ProductType = () => {
+  // Captura o parametro "id" da URL
   const { typeId } = useParams();
-  const productType = productTypesData[typeId];
 
-  if (!productType) {
-    return <p>Tipo de produto não encontrado</p>;
+  // Converte o ID capturado em um Int e busca a categoria correspondente
+  const category = categories_data.find(
+    (cat) => cat.id === parseInt(typeId, 10)
+  );
+
+  // Verifca se a categoria existe
+  if (!category) {
+    return (
+      <div>
+        <Navbar />
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+          <h1 className="text-3xl font-bold">Categoria não encontrada</h1>
+          <p className="text-lg text-gray-700">Por favor, tente novamente.</p>
+        </div>
+      </div>
+    );
   }
 
+  // Renderiza os dados da categoria encontrada
   return (
-    <div className="container mx-auto py-10 px-4">
-      <h1 className="text-3xl font-bold text-center mb-6">
-        {productType.title}
-      </h1>
-      <p className="text-center text-gray-700 mb-8 max-w-2xl mx-auto">
-        {productType.description}
-      </p>
-
-      <div className="bg-blue-100 rounded-lg p-8">
-        {productType.products.map((product, index) => (
-          <div
-            key={index}
-            className="flex flex-col md:flex-row items-center bg-white shadow-md rounded-lg mb-6 p-4 md:p-6"
-          >
-            <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 mb-4 md:mb-0">
-              <img
-                src={`/images/${product.image}`}
-                alt={product.name}
-                className="w-full h-full object-cover rounded-lg"
-              />
-            </div>
-            <div className="md:ml-6 text-center md:text-left">
-              <p className="text-xl font-semibold text-blue-900 mb-2">
-                {product.rank}
-              </p>
-              <p className="text-lg font-bold mb-2">{product.name}</p>
-              <p className="text-gray-700 mb-4">{product.description}</p>
-              <button className="bg-blue-900 text-white font-bold py-2 px-6 rounded-full hover:bg-blue-800 transition duration-300">
-                Ver detalhes
-              </button>
-            </div>
-          </div>
-        ))}
+    <div>
+      <Navbar />
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+        <h1 className="text-3xl font-bold mb-4">{category.name}</h1>
+        <img
+          src={category.image}
+          alt={category.name}
+          className="w-64 h-64 object-cover rounded-lg mb-4"
+        />
+        <p className="text-lg text-gray-700">
+          Aqui você encontrará os melhores produtos da categoria &quot;
+          {category.name}&quot;.
+        </p>
+        <button
+          onClick={() => window.history.back()}
+          className="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+        >
+          Voltar
+        </button>
       </div>
     </div>
   );

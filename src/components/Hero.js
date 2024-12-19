@@ -56,27 +56,27 @@ const Hero = () => {
       {/* Estrelas decorativas */}
       <div className="absolute w-[110px] h-[26px] pl-[2px] pr-[2px] pt-[4px] mt-52 ml-8 sm:ml-[65%] gap-[2px] bg-[#d9d9d9]/40 rounded-[40px] shadow border border-[#002642] border-0.25 backdrop-blur-[15.40px] justify-start items-center inline-flex">
         <img
-          src="/vector.svg"
+          src="/star_filled.png"
           alt="Estrela preenchida"
           className="w-[20px] h-[20px]"
         />
         <img
-          src="/vector.svg"
+          src="/star_filled.png"
           alt="Estrela preenchida"
           className="w-[20px] h-[20px]"
         />
         <img
-          src="/vector.svg"
+          src="/star_filled.png"
           alt="Estrela preenchida"
           className="w-[20px] h-[20px]"
         />
         <img
-          src="/vector.svg"
+          src="/star_filled.png"
           alt="Estrela preenchida"
           className="w-[20px] h-[20px]"
         />
         <img
-          src="/star.svg"
+          src="/star_outfilled.png"
           alt="Estrela não preenchida"
           className="w-[14px] h-[14px] mb-[5px]"
         />
@@ -84,27 +84,27 @@ const Hero = () => {
 
       <div className="absolute w-[110px] h-[26px] pl-[2px] pr-[2px] pt-[4px] mt-80 ml-44 sm:ml-[50%] gap-[2px] bg-[#d9d9d9]/40 rounded-[40px] shadow border border-[#002642] border-0.25 backdrop-blur-[15.40px] justify-start items-center inline-flex">
         <img
-          src="/vector.svg"
+          src="/star_filled.png"
           alt="Estrela preenchida"
           className="w-[20px] h-[20px]"
         />
         <img
-          src="/vector.svg"
+          src="/star_filled.png"
           alt="Estrela preenchida"
           className="w-[20px] h-[20px]"
         />
         <img
-          src="/vector.svg"
+          src="/star_filled.png"
           alt="Estrela preenchida"
           className="w-[20px] h-[20px]"
         />
         <img
-          src="/star.svg"
+          src="/star_outfilled.png"
           alt="Estrela não preenchida"
           className="w-[14px] h-[14px] mb-[5px]"
         />
         <img
-          src="/star.svg"
+          src="/star_outfilled.png"
           alt="Estrela não preenchida"
           className="w-[14px] h-[14px] mb-[5px]"
         />
