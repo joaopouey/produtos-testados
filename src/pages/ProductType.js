@@ -29,23 +29,32 @@ const ProductType = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-        <h1 className="text-3xl font-bold mb-4">{category.name}</h1>
+      <div className="flex flex-col items-center min-h-screen bg-gray-100">
         <img
-          src={category.image}
-          alt={category.name}
-          className="w-64 h-64 object-cover rounded-lg mb-4"
+          src="/capa-produtos/robo-aspirador.png"
+          alt="Robô Aspirador"
+          className="w-full h-136 object-cover "
         />
-        <p className="text-lg text-gray-700">
-          Aqui você encontrará os melhores produtos da categoria &quot;
-          {category.name}&quot;.
-        </p>
-        <button
-          onClick={() => window.history.back()}
-          className="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
-        >
-          Voltar
-        </button>
+        <div className="relative grid grid-cols-2 bg-[#002642] w-[350px] h-40 rounded-lg mt-4">
+          <div className="flex flex-col justify-center pl-7">
+            <p className="text-[#CCFF00] text-2xl font-['Montserrat'] font-bold text-center">
+              TOP 1
+            </p>
+            <p className="text-white text-md font-['Montserrat'] font-medium text-center">
+              Avaliação. 9,9
+            </p>
+            <p className="text-white text-sm font-['Montserrat'] font-normal text-center mt-4">
+              Robô aspirador de pó XIAOMI Mop2
+            </p>
+          </div>
+          <div className="absolute h-40 w-36 right-0 rounded-r-lg bg-white flex justify-center items-center">
+            <img
+              src="/foto-produtos/robo-1-xiaomi-mop2.jpg"
+              alt="Robô Aspirador"
+              className="h-32 right-0"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

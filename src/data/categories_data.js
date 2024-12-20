@@ -22,37 +22,37 @@ const categories_data = [
   {
     id: 5,
     name: 'Cafeteiras Elétricas',
-    image: 'cafeteira-eletrica.png',
+    image: '/categorias/cafeteira-eletrica.png',
   },
   {
     id: 6,
     name: 'Carrinhos (com bebê conforto)',
-    image: 'carrinho-de-bebe-conforto.png',
+    image: '/categorias/carrinho-de-bebe-conforto.png',
   },
   {
     id: 7,
     name: 'Fones Bluetooth',
-    image: 'fone-bluetooth.png',
+    image: '/categorias/fone-bluetooth.png',
   },
   {
     id: 8,
     name: 'Fritadeiras Elétricas (Airfryer)',
-    image: 'fritadeira-eletrica.png',
+    image: '/categorias/fritadeira-eletrica.png',
   },
   {
     id: 9,
     name: 'Liquidificadores',
-    image: 'liquidificador.png',
+    image: '/categorias/liquidificador.png',
   },
   {
     id: 10,
     name: 'Purificadores de Água',
-    image: 'purificador-de-agua.png',
+    image: '/categorias/purificador-de-agua.png',
   },
   {
     id: 11,
     name: 'Robôs Aspiradores',
-    image: 'robo-aspirador.png',
+    image: '/categorias/robo-aspirador.png',
   },
 ];
 
