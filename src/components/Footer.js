@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="w-auto h-20 relative">
+    <div className="">
       <div className="w-full h-[0px] left-0 top-0 opacity-75 border border-[#002642]/50">
         <div className="ml-4 mb-4">
           <div className="left-[126px] top-[15px] mt-2 align-left text-[#333333]/80 text-xs font-light font-['Roboto']">
