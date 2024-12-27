@@ -1,4 +1,4 @@
-const categories_data = [
+const categoriesData = [
   {
     id: 1,
     name: 'Aspiradores Verticais (com fio)',
@@ -51,9 +51,9 @@ const categories_data = [
   },
   {
     id: 11,
-    name: 'Robôs Aspiradores',
+    name: 'Robô Aspirador',
     image: '/categorias/robo-aspirador.png',
   },
 ];
 
-export default categories_data;
+export default categoriesData;
