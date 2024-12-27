@@ -28,23 +28,25 @@ const ProductType = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-col items-center min-h-screen bg-gray-100">
+      <div className="flex flex-col items-center min-h-screen bg-gray-100 ">
         <img
           src={`/capa-produtos/${category.category.toLowerCase()}.png`}
           alt={category.category}
           className="w-full h-136 object-cover"
         />
-        {category.products.map((product, index) => (
-          <ProductCard
-            key={index}
-            rank={product.rank}
-            imageSrc={product.imageSrc}
-            productName={product.productName}
-            rating={product.rating}
-            features={product.features}
-            amazonLink={product.amazonLink}
-          />
-        ))}
+        <div className="flex flex-col items-center">
+          {category.products.map((product, index) => (
+            <ProductCard
+              key={index}
+              rank={product.rank}
+              imageSrc={product.imageSrc}
+              productName={product.productName}
+              rating={product.rating}
+              features={product.features}
+              amazonLink={product.amazonLink}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
