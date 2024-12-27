@@ -9,8 +9,8 @@ const ProductCard = ({
   amazonLink,
 }) => {
   return (
-    <div className="grid xl:flex xl:flex-cols-2 items-start text-left mb-4">
-      <div className="relative grid grid-cols-2 bg-[#002642] w-[350px] h-40 xl:w-[692px] xl:h-[285px] rounded-lg mt-4">
+    <div className="grid md:flex md:flex-cols-2 items-start text-left mb-4">
+      <div className="relative grid grid-cols-2 bg-[#002642] w-[350px] h-40 md:w-[406px] md:h-[169px] xl:w-[692px] xl:h-[285px] rounded-lg mt-4">
         <div className="flex flex-col justify-center xl:justify-start xl:mt-14 pl-7 text-center">
           <p className="text-[#CCFF00] text-2xl font-['Montserrat'] font-bold">
             {rank}
@@ -22,13 +22,13 @@ const ProductCard = ({
             {productName}
           </p>
         </div>
-        <div className="absolute h-40 xl:h-[285px] w-40 xl:w-[300px] right-0 rounded-r-lg bg-white flex justify-center items-center">
+        <div className="absolute h-40 xl:h-[285px] md:h-[169px] w-40 sm:w-[162px] xl:w-[300px] right-0 rounded-r-lg bg-white flex justify-center items-center">
           <img src={imageSrc} alt={productName} className="h-32 xl:h-[230px]" />
         </div>
       </div>
-      <div className="w-[350px] font-[Montserrat] grid pt-2 xl:pt-0 grid-cols-2 xl:grid-cols-1 xl:ml-4 xl:text-xl xl:mt-[16px]">
+      <div className="w-[350px] font-[Montserrat] grid pt-2 xl:pt-0 grid-cols-2 md:grid-cols-1 md: ml-2 xl:ml-4 xl:text-xl xl:mt-[16px]">
         <div>
-          <p className="font-medium text-sm xl:mb-2 xl:mt-6">
+          <p className="font-medium text-sm md:mb-2 md:mt-4 xl:mt-6">
             Características especiais:
           </p>
           <p className="text-xs">{features}</p>
