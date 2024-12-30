@@ -50,7 +50,7 @@ const productData = [
     products: [
       {
         rank: 'TOP 1',
-        imageSrc: '/foto-produtos/fone-1-bluetooth.jpg',
+        imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
         productName: 'Fone Bluetooth Modelo 1',
         rating: '9,5',
         features:
@@ -59,7 +59,7 @@ const productData = [
       },
       {
         rank: 'TOP 2',
-        imageSrc: '/foto-produtos/fone-2-bluetooth.jpg',
+        imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
         productName: 'Fone Bluetooth Modelo 2',
         rating: '9,3',
         features:
@@ -68,7 +68,7 @@ const productData = [
       },
       {
         rank: 'TOP 3',
-        imageSrc: '/foto-produtos/fone-2-bluetooth.jpg',
+        imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
         productName: 'Fone Bluetooth Modelo 2',
         rating: '9,3',
         features:
