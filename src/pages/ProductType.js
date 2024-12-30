@@ -35,6 +35,7 @@ const ProductType = () => {
           className="w-full h-136 object-cover"
         />
         <div>
+          <h1>{category.category}</h1>
           {category.products.map((product, index) => (
             <ProductCard
               key={index}

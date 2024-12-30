@@ -1,8 +1,13 @@
 // src/data/productData.js
 const productData = [
+  // Robôs Aspiradores
   {
     id: 1,
     category: 'robo_aspirador',
+    name: 'ROBÔ ASPIRADOR',
+    image: '/categorias/robo-aspirador.png',
+    subtext:
+      'Confira as dicas para adquirir o melhor robô aspirador e ainda uma lista com os produtos mais bem avaliados da categoria no site Amazon.com',
     products: [
       {
         rank: 'TOP 1',
@@ -33,9 +38,15 @@ const productData = [
       },
     ],
   },
+
+  // Fone Bluetooth
   {
     id: 2,
-    category: 'Fones Bluetooth',
+    category: 'fone_bluetooth',
+    name: 'FONES BLUETOOTH',
+    image: '/categorias/fone-bluetooth.png',
+    subtext:
+      'Confira as dicas para adquirir o melhor fone bluetooth e ainda uma lista com os produtos mais bem avaliados da categoria no site Amazon.com',
     products: [
       {
         rank: 'TOP 1',
@@ -48,6 +59,15 @@ const productData = [
       },
       {
         rank: 'TOP 2',
+        imageSrc: '/foto-produtos/fone-2-bluetooth.jpg',
+        productName: 'Fone Bluetooth Modelo 2',
+        rating: '9,3',
+        features:
+          'Cancelamento de ruído, microfone integrado, resistente à água.',
+        amazonLink: 'https://www.amazon.com',
+      },
+      {
+        rank: 'TOP 3',
         imageSrc: '/foto-produtos/fone-2-bluetooth.jpg',
         productName: 'Fone Bluetooth Modelo 2',
         rating: '9,3',

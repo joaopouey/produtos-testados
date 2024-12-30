@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ImageCarousel from '../components/Carousel';
 import Navbar from '../components/Navbar';
-import categories_data from '../data/categories_data';
+import productData from '../data/product_data';
 
 const Categories = () => {
   return (
@@ -16,13 +16,13 @@ const Categories = () => {
 
         <div className="bg-[#002642] rounded-lg p-6">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {categories_data.map((category) => (
+            {productData.map((category) => (
               <div key={category.id} className="text-center text-white">
                 <Link to={`/produtos/${category.id}`}>
                   <img
                     src={category.image}
                     alt={category.name}
-                    className=" object-cover rounded-lg "
+                    className="object-cover rounded-lg "
                   />
                 </Link>
               </div>
