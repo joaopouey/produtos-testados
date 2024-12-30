@@ -11,7 +11,7 @@ const Newsletter = () => {
           className="flex-grow bg-transparent outline-none text-gray-700 placeholder-gray-500 rounded-lg"
         />
         <button className="flex items-center justify-center rounded-full h-[24px] w-[24px]">
-          <img src="botao_newsletter.png" alt="Enviar" className="h-6 w-6" />
+          <img src="/botao_newsletter.png" alt="Enviar" className="h-6 w-6" />
         </button>
       </div>
 

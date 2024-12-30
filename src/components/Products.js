@@ -1,11 +1,9 @@
 import { default as React } from 'react';
 import { useParams } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import Newsletter from '../components/Newsletter';
-import ProductCard from '../components/ProductCard';
 import productData from '../data/product_data'; // Importa os dados dos produtos
+import ProductCard from './ProductCard';
 
-const ProductType = () => {
+const Products = () => {
   // Captura o parâmetro "id" da URL
   const { typeId } = useParams();
 
@@ -16,7 +14,6 @@ const ProductType = () => {
   if (!category) {
     return (
       <div>
-        <Navbar />
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
           <h1 className="text-3xl font-bold">Categoria não encontrada</h1>
           <p className="text-lg text-gray-700">Por favor, tente novamente.</p>
@@ -28,7 +25,6 @@ const ProductType = () => {
   // Renderiza os produtos dessa categoria
   return (
     <div>
-      <Navbar />
       <div className="relative flex flex-col items-center min-h-screen bg-gray-100 ">
         <img
           src={`/capa-produtos/${category.category.toLowerCase()}.png`}
@@ -52,9 +48,8 @@ const ProductType = () => {
         ))}
       </div>
       <div dangerouslySetInnerHTML={{ __html: category.details }} />
-      <Newsletter />
     </div>
   );
 };
 
-export default ProductType;
+export default Products;

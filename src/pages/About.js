@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Newsletter from '../components/Newsletter';
 
 const About = () => {
   return (
@@ -35,6 +36,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <Newsletter />
     </div>
   );
 };
