@@ -34,7 +34,7 @@ const ProductType = () => {
           alt={category.category}
           className="w-full h-136 object-cover"
         />
-        <div className="flex flex-col items-center">
+        <div>
           {category.products.map((product, index) => (
             <ProductCard
               key={index}
