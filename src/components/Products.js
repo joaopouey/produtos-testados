@@ -29,23 +29,31 @@ const Products = () => {
         <img
           src={`/capa-produtos/${category.category.toLowerCase()}.png`}
           alt={category.category}
-          className="w-full h-40 object-cover"
+          className="w-full h-40 md:h-60 xl:h-80 object-cover"
         />
-        <div className="absolute flex flex-col right-4 top-7 text-[#F2F2F2] font-[Montserrat]">
-          <h1 className="font-medium text-xl">{category.name}</h1>
-          <h2 className="text-xs w-60 pt-2">{category.subtext}</h2>
+        <div className="absolute flex flex-col right-4 top-7 md:top-20 xl:top-24 text-[#F2F2F2] font-[Montserrat]">
+          <h1 className="font-medium text-xl md:text-2xl xl:text-4xl">
+            {category.name}
+          </h1>
+          <h2 className="text-xs md:text-sm xl:text-xl w-60 md:w-96 xl:w-[500px] pt-2">
+            {category.subtext}
+          </h2>
         </div>
-        {category.products.map((product, index) => (
-          <ProductCard
-            key={index}
-            rank={product.rank}
-            imageSrc={product.imageSrc}
-            productName={product.productName}
-            rating={product.rating}
-            features={product.features}
-            amazonLink={product.amazonLink}
-          />
-        ))}
+
+        {/* Div Body com Product Cards */}
+        <div className="relative sm:w-screen sm:justify-items-center">
+          {category.products.map((product, index) => (
+            <ProductCard
+              key={index}
+              rank={product.rank}
+              imageSrc={product.imageSrc}
+              productName={product.productName}
+              rating={product.rating}
+              features={product.features}
+              amazonLink={product.amazonLink}
+            />
+          ))}
+        </div>
       </div>
       <div dangerouslySetInnerHTML={{ __html: category.details }} />
     </div>
