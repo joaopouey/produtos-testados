@@ -12,7 +12,7 @@ const productData = [
       {
         rank: 'TOP 1',
         imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
-        productName: 'Robô aspirador de pó XIAOMI Mop2',
+        productName: 'Robô Xiaomi',
         rating: '9,9',
         features:
           'Limites virtuais, limpeza personalizada avançada, mapeamento e navegação a laser de precisão, evita obstáculos.',

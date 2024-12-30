@@ -12,14 +12,14 @@ const ProductCard = ({
     <div className="relative grid grid-cols-1 mb-8 w-72">
       {/* Parte azul superior do card */}
       <div className="bg-[#002642] h-52 rounded-t-2xl mt-4">
-        <div className="grid justify-start pt-8 text-center">
-          <p className="text-[#CCFF00] text-3xl font-['Montserrat'] font-bold">
+        <div className="grid grid-cols-1 justify-items-center pt-8">
+          <p className="text-[#CCFF00] text-3xl text-center font-['Montserrat'] font-bold">
             {rank}
           </p>
-          <p className="text-white text-md font-['Montserrat'] font-medium">
+          <p className="text-white text-md text-center font-['Montserrat'] font-medium">
             Avaliação. {rating}
           </p>
-          <p className="text-white text-xl font-['Montserrat'] font-normal pt-4">
+          <p className="text-white text-xl text-center font-['Montserrat'] font-normal pt-6">
             {productName}
           </p>
         </div>
