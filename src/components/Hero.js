@@ -83,7 +83,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="absolute w-[110px] h-[26px] pl-[2px] pr-[2px] pt-[4px] mt-80 ml-80 sm:ml-[50%] gap-[2px] bg-[#d9d9d9]/40 rounded-[40px] shadow border border-[#002642] border-0.25 backdrop-blur-[15.40px] justify-start items-center inline-flex">
+      <div className="absolute w-[110px] h-[26px] pl-[2px] pr-[2px] pt-[4px] mt-80 ml-52 sm:ml-[50%] gap-[2px] bg-[#d9d9d9]/40 rounded-[40px] shadow border border-[#002642] border-0.25 backdrop-blur-[15.40px] justify-start items-center inline-flex">
         <img
           src="/star_filled.png"
           alt="Estrela preenchida"
