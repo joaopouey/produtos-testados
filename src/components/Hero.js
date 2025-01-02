@@ -31,28 +31,29 @@ const Hero = () => {
       className="flex flex-col bg-cover bg-center h-[640px]"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      {/* Título */}
-      <h1 className="text-[#111111] font-normal font-['Montserrat'] text-xl pt-96 sm:pt-72 ml-10 w-72 sm:text-4xl sm:w-[600px] sm:ml-20">
-        Opiniões que você <span className="font-medium">pode confiar</span>,
-        escolhas que fazem a diferença.
-      </h1>
+      <div className="pt-32 xl:pl-36">
+        {/* Título */}
+        <h1 className="text-[#111111] font-normal font-['Montserrat'] text-2xl pt-60 sm:pt-60 ml-10 w-72 sm:text-4xl sm:w-[600px] sm:ml-20">
+          Opiniões que você <span className="font-medium">pode confiar</span>,
+          escolhas que fazem a diferença.
+        </h1>
 
-      {/* Subtítulo */}
-      <h3 className="w-72 mt-2 text-[#333333] text-[16px] font-light font-['Roboto'] ml-10 pt-6 pb-4 sm:w-[600px] sm:ml-20">
-        Nossos especialistas testam para você tomar a melhor decisão. Produtos
-        de qualidade, sempre à prova.
-      </h3>
+        {/* Subtítulo */}
+        <h3 className="w-72 mt-2 text-[#333333] text-[16px] font-light font-['Roboto'] ml-10 pt-2 pb-4 sm:w-[600px] sm:ml-20">
+          Nossos especialistas testam para você tomar a melhor decisão. Produtos
+          de qualidade, sempre à prova.
+        </h3>
 
-      {/* Botão */}
-      <button
-        className="w-[164px] h-[49px] bg-cover bg-center rounded-lg pt-4 ml-10 sm:ml-20"
-        style={{
-          backgroundImage: "url('/botao_ver_produtos.png')",
-        }}
-      >
-        <span className="sr-only">Clique Aqui</span>
-      </button>
-
+        {/* Botão Produtos */}
+        <a href="https://www.produtostestados.com.br/categorias">
+          <button
+            className="w-[164px] h-[49px] bg-cover bg-center rounded-lg pt-4 ml-10 sm:ml-20"
+            style={{
+              backgroundImage: "url('/botao_ver_produtos.png')",
+            }}
+          ></button>
+        </a>
+      </div>
       {/* Estrelas decorativas */}
       <div className="absolute w-[110px] h-[26px] pl-[2px] pr-[2px] pt-[4px] mt-52 ml-8 sm:ml-[65%] gap-[2px] bg-[#d9d9d9]/40 rounded-[40px] shadow border border-[#002642] border-0.25 backdrop-blur-[15.40px] justify-start items-center inline-flex">
         <img
@@ -78,11 +79,11 @@ const Hero = () => {
         <img
           src="/star_outfilled.png"
           alt="Estrela não preenchida"
-          className="w-[14px] h-[14px] mb-[5px]"
+          className="w-[14px] h-[14px] mb-[6px]"
         />
       </div>
 
-      <div className="absolute w-[110px] h-[26px] pl-[2px] pr-[2px] pt-[4px] mt-80 ml-44 sm:ml-[50%] gap-[2px] bg-[#d9d9d9]/40 rounded-[40px] shadow border border-[#002642] border-0.25 backdrop-blur-[15.40px] justify-start items-center inline-flex">
+      <div className="absolute w-[110px] h-[26px] pl-[2px] pr-[2px] pt-[4px] mt-80 ml-80 sm:ml-[50%] gap-[2px] bg-[#d9d9d9]/40 rounded-[40px] shadow border border-[#002642] border-0.25 backdrop-blur-[15.40px] justify-start items-center inline-flex">
         <img
           src="/star_filled.png"
           alt="Estrela preenchida"
@@ -101,12 +102,12 @@ const Hero = () => {
         <img
           src="/star_outfilled.png"
           alt="Estrela não preenchida"
-          className="w-[14px] h-[14px] mb-[5px]"
+          className="w-[14px] h-[14px] mb-[6px]"
         />
         <img
           src="/star_outfilled.png"
           alt="Estrela não preenchida"
-          className="w-[14px] h-[14px] mb-[5px]"
+          className="w-[14px] h-[14px] mb-[6px]"
         />
       </div>
     </div>

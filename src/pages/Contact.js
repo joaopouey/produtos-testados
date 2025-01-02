@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
 const Contact = () => {
@@ -9,7 +10,7 @@ const Contact = () => {
       <div className="container mx-auto py-10 px-4 text-center">
         <div className="flex justify-center mb-6">
           <img
-            src="logo.png" // Substitua com o caminho real do logo, se necessário
+            src="/logo-about-w-border.png" // Substitua com o caminho real do logo, se necessário
             alt="Logo Produtos Testados"
             className="w-40 h-40 md:w-56 md:h-56"
           />
@@ -92,6 +93,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 };

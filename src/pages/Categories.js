@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ImageCarousel from '../components/Carousel';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import Newsletter from '../components/Newsletter';
 import productData from '../data/product_data';
 
 const Categories = () => {
@@ -30,6 +32,8 @@ const Categories = () => {
           </div>
         </div>
       </div>
+      <Newsletter />
+      <Footer />
     </div>
   );
 };
