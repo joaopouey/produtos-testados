@@ -19,7 +19,7 @@ const ProductCard = ({
           <p className="text-white text-md text-center font-['Montserrat'] font-medium">
             Avaliação. {rating}
           </p>
-          <p className="text-white text-xl text-center font-['Montserrat'] font-normal pt-6 lg:w-72">
+          <p className="text-white text-xl text-center font-['Montserrat'] font-normal pt-6 sm:w-72">
             {productName}
           </p>
         </div>
