@@ -33,7 +33,7 @@ const Hero = () => {
     >
       <div className="pt-32 xl:pl-36">
         {/* Título */}
-        <h1 className="text-[#111111] font-normal font-['Montserrat'] text-2xl pt-60 sm:pt-60 ml-10 w-72 sm:text-4xl sm:w-[600px] sm:ml-20">
+        <h1 className="text-[#111111] font-normal font-['Montserrat'] text-2xl pt-60 sm:pt-60 ml-10 w-72 sm:text-4xl sm:w-[550px] sm:ml-20">
           Opiniões que você <span className="font-medium">pode confiar</span>,
           escolhas que fazem a diferença.
         </h1>
