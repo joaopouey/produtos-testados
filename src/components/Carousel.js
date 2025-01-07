@@ -48,8 +48,8 @@ const ImageCarousel = () => {
       />
 
       {/* Texto do slide */}
-      <div className="absolute text-black p-4 top-1/2 -translate-y-1/2 ml-16">
-        <h1 className="text-black sm:text-2xl font-semibold font-['Montserrat'] tracking-tight pl-2">
+      <div className="absolute text-white p-4 top-1/2 -translate-y-1/2 ml-16">
+        <h1 className="text-white sm:text-2xl font-semibold font-['Montserrat'] tracking-tight pl-2">
           {slides[currentIndex].text}
         </h1>
       </div>

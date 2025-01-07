@@ -31,15 +31,15 @@ const Hero = () => {
       className="flex flex-col bg-cover bg-center h-[640px]"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="pt-32 xl:pl-36">
+      <div className="pt-32 lg:pl-16">
         {/* Título */}
-        <h1 className="text-[#111111] font-normal font-['Montserrat'] text-2xl pt-60 sm:pt-60 ml-10 w-72 sm:text-4xl sm:w-[550px] sm:ml-20">
+        <h1 className="text-[#111111] font-normal font-['Montserrat'] text-2xl pt-60 sm:pt-60 ml-10 w-72 sm:text-4xl sm:w-[550px] sm:ml-20 md:ml-32">
           Opiniões que você <span className="font-medium">pode confiar</span>,
           escolhas que fazem a diferença.
         </h1>
 
         {/* Subtítulo */}
-        <h3 className="w-72 mt-2 text-[#333333] text-[16px] font-light font-['Roboto'] ml-10 pt-2 pb-4 sm:w-[600px] sm:ml-20">
+        <h3 className="w-72 mt-2 text-[#333333] text-[16px] font-light font-['Roboto'] ml-10 pt-2 pb-4 sm:w-[600px] sm:ml-20 md:ml-32">
           Nossos especialistas testam para você tomar a melhor decisão. Produtos
           de qualidade, sempre à prova.
         </h3>
@@ -47,7 +47,7 @@ const Hero = () => {
         {/* Botão Produtos */}
         <a href="https://www.produtostestados.com.br/categorias">
           <button
-            className="w-[164px] h-[49px] bg-cover bg-center rounded-lg pt-4 ml-10 sm:ml-20"
+            className="w-[164px] h-[49px] bg-cover bg-center rounded-lg pt-4 ml-10 sm:ml-20 md:ml-32"
             style={{
               backgroundImage: "url('/botao_ver_produtos.png')",
             }}
