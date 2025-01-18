@@ -1,6 +1,6 @@
 import { default as React } from 'react';
 import { useParams } from 'react-router-dom';
-import productData from '../data/product_data'; // Importa os dados dos produtos
+import categories from '../data/categories';
 import ProductCard from './ProductCard';
 
 const Products = () => {
@@ -8,15 +8,15 @@ const Products = () => {
   const { typeId } = useParams();
 
   // Busca a categoria correspondente pelo id
-  const category = productData.find((cat) => cat.id === parseInt(typeId, 10));
+  const category = categories.find((cat) => cat.id === parseInt(typeId, 10));
 
   // Verifica se a categoria existe
   if (!category) {
     return (
       <div>
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-          <h1 className="text-3xl font-bold">Categoria não encontrada</h1>
-          <p className="text-lg text-gray-700">Por favor, tente novamente.</p>
+        <div className='flex flex-col items-center justify-center min-h-screen bg-gray-100'>
+          <h1 className='text-3xl font-bold'>Categoria não encontrada</h1>
+          <p className='text-lg text-gray-700'>Por favor, tente novamente.</p>
         </div>
       </div>
     );
@@ -25,23 +25,23 @@ const Products = () => {
   // Renderiza os produtos dessa categoria
   return (
     <div>
-      <div className="relative flex flex-col items-center min-h-screen bg-gray-100 ">
+      <div className='relative flex flex-col items-center min-h-screen bg-gray-100 '>
         <img
           src={`/capa-produtos/${category.category.toLowerCase()}.png`}
           alt={category.category}
-          className="w-full h-40 md:h-60 xl:h-80 object-cover"
+          className='w-full h-40 md:h-60 xl:h-80 object-cover'
         />
-        <div className="absolute flex flex-col right-4 top-7 md:top-20 xl:top-24 text-[#F2F2F2] font-[Montserrat]">
-          <h1 className="font-medium text-xl md:text-2xl xl:text-4xl">
+        <div className='absolute flex flex-col right-4 top-7 md:top-20 xl:top-24 text-[#F2F2F2] font-[Montserrat]'>
+          <h1 className='font-medium text-xl md:text-2xl xl:text-4xl'>
             {category.name}
           </h1>
-          <h2 className="text-xs md:text-sm xl:text-xl w-60 md:w-96 xl:w-[500px] pt-2">
+          <h2 className='text-xs md:text-sm xl:text-xl w-60 md:w-96 xl:w-[500px] pt-2'>
             {category.subtext}
           </h2>
         </div>
 
         {/* Div Body com Product Cards */}
-        <div className="relative sm:w-screen sm:justify-items-center">
+        <div className='relative sm:w-screen sm:justify-items-center'>
           {category.products.map((product, index) => (
             <ProductCard
               key={index}

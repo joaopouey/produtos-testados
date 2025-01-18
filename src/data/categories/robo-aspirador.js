@@ -1,14 +1,11 @@
-// src/data/productData.js
-const productData = [
-  // Robôs Aspiradores
-  {
-    id: 1,
-    category: 'robo_aspirador',
-    name: 'ROBÔS ASPIRADORES',
-    image: '/categorias/robo-aspirador.png',
-    subtext:
-      'Confira as dicas para adquirir o melhor robô aspirador e ainda uma lista com os produtos mais bem avaliados da categoria no site Amazon.com',
-    details: `
+const roboAspirador = {
+  id: 1,
+  category: 'robo_aspirador',
+  name: 'ROBÔS ASPIRADORES',
+  image: '/categorias/robo-aspirador.png',
+  subtext:
+    'Confira as dicas para adquirir o melhor robô aspirador e ainda uma lista com os produtos mais bem avaliados da categoria no site Amazon.com',
+  details: `
     <div class="font-[Montserrat] px-4 lg:w-[1024px] justify-self-center">
       <h2 class="text-xl lg:text-2xl font-medium my-8">Como escolher o melhor robô aspirador para sua casa?</h2>
       <p class="text-sm lg:text-lg text-justify">Está pensando em adquirir um robô aspirador para facilitar a sua vida? Essa é uma ótima escolha para quem busca praticidade e eficiência na limpeza da casa. Mas com tantas opções no mercado, como escolher o modelo ideal?</p>
@@ -38,36 +35,35 @@ const productData = [
       <p class="text-md lg:text-xl lg font-semibold my-4">Esses fatores cobrem desde eficiência de limpeza até usabilidade e manutenção.</p>
     </div>
     `,
-    products: [
-      {
-        rank: 'TOP 1',
-        imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
-        productName: 'Robô Xiaomi',
-        rating: '9,9',
-        features:
-          'Limites virtuais, limpeza personalizada avançada, mapeamento e navegação a laser de precisão, evita obstáculos.',
-        amazonLink: 'https://www.amazon.com',
-      },
-      {
-        rank: 'TOP 2',
-        imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
-        productName: 'Robô aspirador de pó XIAOMI Mop3',
-        rating: '9,8',
-        features:
-          'Limites virtuais, mapeamento inteligente, navegação otimizada.',
-        amazonLink: 'https://www.amazon.com',
-      },
-      {
-        rank: 'TOP 3',
-        imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
-        productName: 'Robô aspirador de pó XIAOMI Mop1',
-        rating: '9,7',
-        features:
-          'Sistema de limpeza profunda, design compacto, navegação precisa.',
-        amazonLink: 'https://www.amazon.com',
-      },
-    ],
-  },
-];
+  products: [
+    {
+      rank: 'TOP 1',
+      imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
+      productName: 'Robô Xiaomi',
+      rating: '9,9',
+      features:
+        'Limites virtuais, limpeza personalizada avançada, mapeamento e navegação a laser de precisão, evita obstáculos.',
+      amazonLink: 'https://www.amazon.com',
+    },
+    {
+      rank: 'TOP 2',
+      imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
+      productName: 'Robô aspirador de pó XIAOMI Mop3',
+      rating: '9,8',
+      features:
+        'Limites virtuais, mapeamento inteligente, navegação otimizada.',
+      amazonLink: 'https://www.amazon.com',
+    },
+    {
+      rank: 'TOP 3',
+      imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
+      productName: 'Robô aspirador de pó XIAOMI Mop1',
+      rating: '9,7',
+      features:
+        'Sistema de limpeza profunda, design compacto, navegação precisa.',
+      amazonLink: 'https://www.amazon.com',
+    },
+  ],
+};
 
-export default productData;
+export default roboAspirador;
