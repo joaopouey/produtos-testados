@@ -1,6 +1,6 @@
 const fritadeiraAirFryer = {
   id: 8,
-  category: 'fritadeira_air_fryer',
+  category: 'fritadeira_eletrica',
   name: 'FRITADEIRAS AIR FRYER',
   image: '/categorias/fritadeira-eletrica.png',
   subtext:

@@ -1,6 +1,6 @@
 const aspiradorVertical = {
-  id: 2,
-  category: 'aspirador_vertical',
+  id: 11,
+  category: 'aspirador_vertical_sem_fio',
   name: 'ASPIRADORES VERTICAIS SEM FIO',
   image: '/categorias/aspirador-vertical-sem-fio.png',
   subtext:

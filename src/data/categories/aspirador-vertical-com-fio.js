@@ -1,7 +1,7 @@
 const aspiradorVerticalComFio = {
   id: 2,
-  category: 'aspirador-vertical-com-fio',
-  name: 'ASPIRADOR VERTICAL COM FIO',
+  category: 'aspirador_vertical_com_fio',
+  name: 'ASPIRADORES VERTICAIS COM FIO',
   image: '/categorias/aspirador-vertical-com-fio.png',
   subtext:
     'Confira as dicas para adquirir o melhor aspirador vertical com fio e veja os produtos mais bem avaliados da categoria.',

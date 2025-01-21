@@ -29,9 +29,10 @@ const Products = () => {
         <img
           src={`/capa-produtos/${category.category.toLowerCase()}.png`}
           alt={category.category}
-          className='w-full h-40 md:h-60 xl:h-80 object-cover'
+          className='w-full object-cover object-right h-40 md:h-60 xl:h-80'
         />
-        <div className='absolute flex flex-col right-4 top-7 md:top-20 xl:top-24 text-[#F2F2F2] font-[Montserrat]'>
+
+        {/*<div className='absolute flex flex-col right-4 top-7 md:top-20 xl:top-24 text-[#F2F2F2] font-[Montserrat]'>
           <h1 className='font-medium text-xl md:text-2xl xl:text-4xl'>
             {category.name}
           </h1>
@@ -39,6 +40,7 @@ const Products = () => {
             {category.subtext}
           </h2>
         </div>
+        */}
 
         {/* Div Body com Product Cards */}
         <div className='relative sm:w-screen sm:justify-items-center'>

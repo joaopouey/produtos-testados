@@ -1,6 +1,6 @@
 const purificadorAguaGelada = {
   id: 10,
-  category: 'purificador_agua_gelada',
+  category: 'purificador_de_agua',
   name: 'PURIFICADORES DE ÁGUA GELADA',
   image: '/categorias/purificador-de-agua.png',
   subtext:

@@ -1,6 +1,6 @@
 const carrinhoBebeComConforto = {
   id: 7,
-  category: 'carrinho_bebe_com_conforto',
+  category: 'carrinho_com_bebe_conforto',
   name: 'CARRINHOS DE BEBÊ COM BEBÊ CONFORTO',
   image: '/categorias/carrinho-de-bebe-conforto.png',
   subtext:
