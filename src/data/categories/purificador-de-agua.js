@@ -39,29 +39,29 @@ const purificadorAguaGelada = {
     {
       rank: 'TOP 1',
       imageSrc: '/foto-produtos/purificador-1.jpg',
-      productName: 'Purificador de Água Consul CPB36',
-      rating: '9,9',
+      productName: 'Purificador de Água gelada Electrolux PE12G',
+      rating: '9,6',
       features:
-        'Água gelada e natural, filtro com alta eficiência, sistema de troca fácil de refil.',
-      amazonLink: 'https://www.amazon.com',
+        'Powerjet: enche o copo 4x mais rápido, painel touch para seleção de temperatura, filtro com vida útil de 3.000 ou 6 meses,  tamanho compacto e tecnologia ACQUA PURE.',
+      amazonLink: 'https://amzn.to/40nJ7Ui',
     },
     {
       rank: 'TOP 2',
       imageSrc: '/foto-produtos/purificador-2.jpg',
-      productName: 'Purificador de Água Electrolux PE11X',
-      rating: '9,8',
+      productName: 'Purificador de Água Refrigerado IBBL New E-Due Equilibrium',
+      rating: '9,4',
       features:
-        'Controle de temperatura, design compacto, filtro de carvão ativado.',
-      amazonLink: 'https://www.amazon.com',
+        'Design Slim, Opção de água natural, gelada ou misturada. Filtro com vida útil de 3.000 litros ou 6 meses, reduz a acidez e equilibra o ph em 7 etapas de purificação.',
+      amazonLink: 'https://amzn.to/4h2GKgK',
     },
     {
       rank: 'TOP 3',
       imageSrc: '/foto-produtos/purificador-3.jpg',
-      productName: 'Purificador de Água IBBL FR600 Speciale',
-      rating: '9,7',
+      productName: 'Purificador de Água Consul CPB34AF',
+      rating: '9,0',
       features:
-        'Alta capacidade de refrigeração, sistema de tripla filtragem, bica articulada.',
-      amazonLink: 'https://www.amazon.com',
+        'Filtragem com máxima redução de cloro e retenção de partículas, água natural purificada até sem energia elétrica, 2 temperaturas: natural e gelada.',
+      amazonLink: 'https://amzn.to/4hm3VlS',
     },
   ],
 };
