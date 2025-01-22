@@ -39,29 +39,28 @@ const fritadeiraAirFryer = {
     {
       rank: 'TOP 1',
       imageSrc: '/foto-produtos/airfryer-1.jpg',
-      productName: 'Fritadeira Air Fryer Philips Walita',
+      productName: 'Midea - Fritadeira Air Fryer 4L',
       rating: '9,9',
       features:
-        'Capacidade de 4,5L, tecnologia Rapid Air, cesto antiaderente, controle de temperatura ajustável.',
-      amazonLink: 'https://www.amazon.com',
+        'Cesto interno quadrado, pode lavar na máquina, potência de 1500W e trava de segurança.',
+      amazonLink: 'https://amzn.to/3PIKlo2',
     },
     {
       rank: 'TOP 2',
       imageSrc: '/foto-produtos/airfryer-2.jpg',
-      productName: 'Fritadeira Air Fryer Mondial Family',
-      rating: '9,8',
+      productName: 'Mondial - Fritadeira Air Fryer 3,5L',
+      rating: '9,6',
       features:
-        'Capacidade de 3,5L, timer de 60 minutos, desligamento automático, fácil de limpar.',
-      amazonLink: 'https://www.amazon.com',
+        'Capacidade de 3,5L, Design compacto, antiaderente Duraflon, 1500W.',
+      amazonLink: 'https://amzn.to/4hoL7m1',
     },
     {
       rank: 'TOP 3',
       imageSrc: '/foto-produtos/airfryer-3.jpg',
-      productName: 'Fritadeira Air Fryer Arno Super',
-      rating: '9,7',
-      features:
-        'Potência de 1.700W, controle de temperatura, design compacto e moderno.',
-      amazonLink: 'https://www.amazon.com',
+      productName: 'Oster - Fritadeira Air Fryer 4,6L OFRT520',
+      rating: '9,5',
+      features: 'Potência de 1.500W, grelha Easy Clean removível, ',
+      amazonLink: 'https://amzn.to/3PHvj1Y',
     },
   ],
 };

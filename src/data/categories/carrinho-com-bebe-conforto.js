@@ -39,29 +39,32 @@ const carrinhoBebeComConforto = {
     {
       rank: 'TOP 1',
       imageSrc: '/foto-produtos/carrinho-1.jpg',
-      productName: 'Carrinho de Bebê Travel System Graco Modes',
-      rating: '9,9',
+      productName:
+        'Safety 1st - Carrinho de Bebê com bebê conforto Travel System Mobi NV Trio',
+      rating: '9,6',
       features:
-        'Sistema 2 em 1, reclinação total, cinto de segurança de 5 pontos, rodas com suspensão.',
-      amazonLink: 'https://www.amazon.com',
+        'Completo, com bebê conforto e base, estrutura leve de alumínio, assento reversível e removível, função moisés e passeio.',
+      amazonLink: 'https://amzn.to/4gaYS6S',
     },
     {
       rank: 'TOP 2',
       imageSrc: '/foto-produtos/carrinho-2.jpg',
-      productName: 'Carrinho de Bebê Safety 1st Step & Go',
-      rating: '9,8',
+      productName:
+        'Safety 1st - Carrinho de Bebê com bebê conforto, Travel System Discover Trio, com Isofix',
+      rating: '9,5',
       features:
-        'Bebê conforto incluso, fechamento com uma mão, estrutura leve e compacta.',
-      amazonLink: 'https://www.amazon.com',
+        'Estrutura leve em alumínio cromado, assento reversível, moisés e passeio, capotas com proteção solar UV50+, rodas traseiras grandes com amortecedores.',
+      amazonLink: 'https://amzn.to/4h1WHDW',
     },
     {
       rank: 'TOP 3',
       imageSrc: '/foto-produtos/carrinho-3.jpg',
-      productName: 'Carrinho de Bebê Maxi-Cosi Zelia',
-      rating: '9,7',
+      productName:
+        'Cosco Kids - Carrinho de Bebê como bebê conforto Travel System Poppy Duo',
+      rating: '9,4',
       features:
-        'Assento reversível, sistema de encaixe fácil, capota com proteção UV.',
-      amazonLink: 'https://www.amazon.com',
+        'Capota com proteção UV30+ 3 posições de reclinação do assento, ajuse de altura da manopla, aprovado para uso em aviões.',
+      amazonLink: 'https://amzn.to/3Wppbz9',
     },
   ],
 };

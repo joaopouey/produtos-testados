@@ -39,29 +39,29 @@ const cadeiraGamer = {
     {
       rank: 'TOP 1',
       imageSrc: '/foto-produtos/cadeira-1.jpg',
-      productName: 'Cadeira Gamer DXRacer King Series',
-      rating: '9,9',
+      productName: 'ThunderX3 - Cadeira Gamer Profissional TGC12 ',
+      rating: '9,6',
       features:
-        'Apoio de cabeça ajustável, suporte lombar, encosto reclinável até 135°, revestimento em couro PU.',
-      amazonLink: 'https://www.amazon.com',
+        'Estofado em forma de diamantes com firmeza para proporcionar conforto, suporta 150Kg, reclinável de 90 a 135 graus, apoio de braço com ajuste de altura e rotação.',
+      amazonLink: 'https://amzn.to/4avDAzK',
     },
     {
       rank: 'TOP 2',
       imageSrc: '/foto-produtos/cadeira-2.jpg',
-      productName: 'Cadeira Gamer ThunderX3 BC3',
-      rating: '9,8',
+      productName: 'ThunderX3 - Cadeira Ergonomic YAMA1BK',
+      rating: '9,4',
       features:
-        'Estofamento em espuma de alta densidade, tecido respirável, suporte de peso até 150 kg.',
-      amazonLink: 'https://www.amazon.com',
+        'Suporta até 150kg, reclinável de 90 a 135 graus, zonas flexíveis que ajudam na melhorar a postura, apoios de braço com ajuste de altura, projetada para máxima respirabilidade.',
+      amazonLink: 'https://amzn.to/4auqv9D',
     },
     {
       rank: 'TOP 3',
       imageSrc: '/foto-produtos/cadeira-3.jpg',
-      productName: 'Cadeira Gamer Husky Gaming Blizzard',
-      rating: '9,7',
+      productName: 'Fortrek - Cadeira Gamer Cruiser',
+      rating: '9,2',
       features:
-        'Braços ajustáveis em 3D, base reforçada, design moderno com detalhes em LED.',
-      amazonLink: 'https://www.amazon.com',
+        'Peso máximo recomendado 120kg, ajuste de inclinação de até 155 graus, apoios de braço com regulagem de altura.',
+      amazonLink: 'https://amzn.to/4jqVLu7',
     },
   ],
 };
