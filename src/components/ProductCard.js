@@ -40,7 +40,7 @@ const ProductCard = ({
       <div className='w-72 sm:w-[529px] lg:w-96 font-[Montserrat] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 pt-5 lg:ml-4 lg:mt-6'>
         <div className='sm:w-[300px]'>
           <p className='font-bold text-sm pl-4'>
-            Principais pontos positivos destacados pelos clientes:
+            Principais qualidades destacadas pelos clientes:
           </p>
           <p className='text-xs pt-3 pl-4'>{features}</p>
           <p className='text-xs pt-3 pl-4'>{features2}</p>
