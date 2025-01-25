@@ -52,6 +52,8 @@ const Products = () => {
               productName={product.productName}
               rating={product.rating}
               features={product.features}
+              features2={product.features2}
+              features3={product.features3}
               amazonLink={product.amazonLink}
             />
           ))}

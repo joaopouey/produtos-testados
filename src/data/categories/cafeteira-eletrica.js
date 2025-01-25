@@ -39,29 +39,29 @@ const cafeteiraEletrica = {
     {
       rank: 'TOP 1',
       imageSrc: '/foto-produtos/cafeteira-1.jpg',
-      productName: 'Cafeteira Elétrica Philco PH14',
+      productName: 'Electrolux - Cafeteira Elétrica Inox ECM30',
       rating: '9,9',
       features:
-        'Capacidade para 14 xícaras, filtro permanente, base aquecida, design compacto.',
-      amazonLink: 'https://www.amazon.com',
+        'Filtro permanente removível, capacidade de 1,5L (38 xícaras pequenas), função timer, painel digital e desligamento automático.',
+      amazonLink: 'https://amzn.to/40vyL4P',
     },
     {
       rank: 'TOP 2',
       imageSrc: '/foto-produtos/cafeteira-2.jpg',
-      productName: 'Cafeteira Elétrica Mondial C-08',
+      productName: 'Oster - Cafeteria Day Light 110V',
       rating: '9,8',
       features:
-        'Função corta-pingo, reservatório transparente, design moderno.',
-      amazonLink: 'https://www.amazon.com',
+        'Timer inteligente, filtro reutilizável, capacidade de 1,2 litros (30 xicaras pequenas)',
+      amazonLink: 'https://amzn.to/40uFM5Q',
     },
     {
       rank: 'TOP 3',
       imageSrc: '/foto-produtos/cafeteira-3.jpg',
-      productName: 'Cafeteira Elétrica Oster PrimaLatte',
+      productName: 'Oster - Cafeteira Flavor programável 220V',
       rating: '9,7',
       features:
-        'Compatível com pó e cápsulas, vaporizador de leite, reservatório de água removível.',
-      amazonLink: 'https://www.amazon.com',
+        'Painel digital programável, capacidade de 36 xícaras de 42ml, filtro em nylon removível e lavável, aviso sonoro de café pronto.',
+      amazonLink: 'https://amzn.to/40NZE5l',
     },
   ],
 };

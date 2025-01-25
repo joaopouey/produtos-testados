@@ -24,27 +24,30 @@ const aspiradorVerticalComFio = {
   products: [
     {
       rank: 'TOP 1',
-      imageSrc: '/foto-produtos/aspirador-top1.jpg',
-      productName: 'Aspirador Vertical Modelo 1',
-      rating: '9,9',
-      features: 'Alta potência, cabo longo, reservatório de fácil limpeza.',
-      amazonLink: 'https://www.amazon.com',
+      imageSrc: '/foto-produtos/aspirador-vertical-fio-1.jpg',
+      productName: 'Mondial - Aspirador de pó Turbo Cycle, 1100W',
+      rating: '9,6',
+      features:
+        'Sistema de dupla filtragem, filtro lavável e cabo elétrico com 4 metros.',
+      amazonLink: 'https://amzn.to/4jzinJh',
     },
     {
       rank: 'TOP 2',
-      imageSrc: '/foto-produtos/aspirador-top2.jpg',
-      productName: 'Aspirador Vertical Modelo 2',
-      rating: '9,8',
-      features: 'Design ergonômico, fácil manuseio, potência eficiente.',
-      amazonLink: 'https://www.amazon.com',
+      imageSrc: '/foto-produtos/aspirador-vertical-fio-2.jpg',
+      productName: 'Electrolux - STK15 PowerSpeed Ultra, 1450W',
+      rating: '9,4',
+      features:
+        'Reservatório de 1,6 litros, bocal que alcança locais de dificil acesso, filtro HEPA Allergy, cabo elétrico de 6m.',
+      amazonLink: 'https://amzn.to/4jwvJpt',
     },
     {
       rank: 'TOP 3',
-      imageSrc: '/foto-produtos/aspirador-top3.jpg',
-      productName: 'Aspirador Vertical Modelo 3',
-      rating: '9,7',
-      features: 'Reservatório grande, acessórios versáteis.',
-      amazonLink: 'https://www.amazon.com',
+      imageSrc: '/foto-produtos/aspirador-vertical-fio-3.jpg',
+      productName: 'WAP - Silent Speed Max, compacto, 1,2 litros, 1350W.',
+      rating: '9,3',
+      features:
+        'Tecnologia Cyclone, filtro HEPA, bico múltiplo com rotação de 360°.',
+      amazonLink: 'https://amzn.to/3CqJzsN',
     },
   ],
 };

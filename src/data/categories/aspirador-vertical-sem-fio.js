@@ -38,30 +38,33 @@ const aspiradorVertical = {
   products: [
     {
       rank: 'TOP 1',
-      imageSrc: '/foto-produtos/aspirador-1.jpg',
-      productName: 'Aspirador Vertical Sem Fio Dyson V11',
-      rating: '9,9',
+      imageSrc: '/foto-produtos/aspirador-vertical-w-1.jpg',
+      productName:
+        'Electrolux - Aspirador de pó Vertical sem fio Ergorapido ERG26',
+      rating: '9,8',
       features:
-        'Alta potência de sucção, até 60 minutos de autonomia, display LCD com modos de limpeza.',
-      amazonLink: 'https://www.amazon.com',
+        'Exclusivo bocal Pet Care para remoção de pelos, bateria de 18V com duração de até 45 minutos, filtro HEPA.',
+      amazonLink: 'https://amzn.to/3WzbM7I',
     },
     {
       rank: 'TOP 2',
-      imageSrc: '/foto-produtos/aspirador-2.jpg',
-      productName: 'Aspirador Vertical Samsung Jet 90',
-      rating: '9,8',
+      imageSrc: '/foto-produtos/aspirador-vertical-w-2.jpg',
+      productName:
+        'Electrolux - Aspirador de pó Vertical sem fio Ergorapido ERG28',
+      rating: '9,6',
       features:
-        'Sistema de filtragem HEPA, reservatório fácil de limpar, design ergonômico.',
-      amazonLink: 'https://www.amazon.com',
+        'Bateria de 18V com até 45 minutos, reservatório de 420ml, base para carregar, iluminção frontal em led.',
+      amazonLink: 'https://amzn.to/4h4XtQo',
     },
     {
       rank: 'TOP 3',
-      imageSrc: '/foto-produtos/aspirador-3.jpg',
-      productName: 'Aspirador Vertical Xiaomi G10',
-      rating: '9,7',
+      imageSrc: '/foto-produtos/aspirador-vertical-w-3.jpg',
+      productName:
+        'Electrolux - Aspirador de pó Vertical sem fio Ergorapido ERG21',
+      rating: '9,6',
       features:
-        'Carregamento rápido, diversos acessórios inclusos, baixo nível de ruído.',
-      amazonLink: 'https://www.amazon.com',
+        'Bateria com duração de até 21 minutos, indicativo de bateria em led, filtragem cyclone, reservatório de 460ml .',
+      amazonLink: 'https://amzn.to/4jwRo0Y',
     },
   ],
 };

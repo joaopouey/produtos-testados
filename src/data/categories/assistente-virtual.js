@@ -38,30 +38,31 @@ const assistenteVirtual = {
   products: [
     {
       rank: 'TOP 1',
-      imageSrc: '/foto-produtos/assistente-1.jpg',
-      productName: 'Amazon Echo Dot (4ª Geração)',
+      imageSrc: '/foto-produtos/echo-1.jpg',
+      productName:
+        'Amazon Echo 4ª Geração - Com som premium e hub Zigbee de casa inteligente',
       rating: '9,9',
       features:
-        'Compatível com Alexa, excelente qualidade de som, integração com dispositivos inteligentes.',
-      amazonLink: 'https://www.amazon.com',
+        'Integração com demais dispositivos Echo em toda casa, controle de casa inteligente o Echo com um dos sons de mais qualidade.',
+      amazonLink: 'https://amzn.to/3PP8LfO',
     },
     {
       rank: 'TOP 2',
-      imageSrc: '/foto-produtos/assistente-2.jpg',
-      productName: 'Google Nest Mini',
+      imageSrc: '/foto-produtos/echo-2.jpg',
+      productName: 'Amazon Echo POP',
       rating: '9,8',
       features:
-        'Integração com Google Home, comandos de voz precisos, design compacto e moderno.',
-      amazonLink: 'https://www.amazon.com',
+        'Perfeito para esaços pequenos, proporcionando um som envolvente, compativel com equipamentos de casa inteligente.',
+      amazonLink: 'https://amzn.to/4hoUJgo',
     },
     {
       rank: 'TOP 3',
-      imageSrc: '/foto-produtos/assistente-3.jpg',
-      productName: 'Apple HomePod Mini',
+      imageSrc: '/foto-produtos/echo-3.jpg',
+      productName: 'Echo Dot 5ª geração',
       rating: '9,7',
       features:
-        'Compatível com Siri, excelente qualidade de som, foco em privacidade e segurança.',
-      amazonLink: 'https://www.amazon.com',
+        'O echo dot com melhor som já lançado, sensor de temperatura. .',
+      amazonLink: 'https://amzn.to/4gds9O0',
     },
   ],
 };

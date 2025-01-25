@@ -39,29 +39,41 @@ const foneBluetooth = {
     {
       rank: 'TOP 1',
       imageSrc: '/foto-produtos/fone-1.jpg',
-      productName: 'Fone Bluetooth Sony WH-1000XM5',
+      productName: 'Edifier - Fone Bluetooth 5.1 W600BT',
       rating: '9,9',
       features:
-        'Cancelamento ativo de ruído, até 30 horas de bateria, som de alta resolução com LDAC.',
-      amazonLink: 'https://www.amazon.com',
+        'Qualidade sonora: Clareza e equilibrio e ótimo isolamento acústico',
+      features2:
+        'Duração da bateria: Semanas sem recarga e carregamento rápido',
+      features3:
+        'Conforto e durabilidade: materiais confortáveis e bom ajuste e resistencia ao desgaste',
+      amazonLink: 'https://amzn.to/3Wuab31',
     },
     {
       rank: 'TOP 2',
       imageSrc: '/foto-produtos/fone-2.jpg',
-      productName: 'Fone Bluetooth Bose QuietComfort 45',
+      productName: 'JBL - Fone de ouvido Tune 510BT',
       rating: '9,8',
       features:
-        'Cancelamento de ruído premium, modo ambiente, design ergonômico para conforto prolongado.',
-      amazonLink: 'https://www.amazon.com',
+        'Qualidade do som: som equilibrado e áudio envolvente tanto em música como em vídeos',
+      features2:
+        'Duração da bateria: bateria com relatos de uso por dias ou semanas sem carregar',
+      features3:
+        'Conforto e praticidade: Conforto no uso em treinos ou home office e fácil de conectar com dispositivos',
+      amazonLink: 'https://amzn.to/4hppVfu',
     },
     {
       rank: 'TOP 3',
       imageSrc: '/foto-produtos/fone-3.jpg',
-      productName: 'Fone Bluetooth Apple AirPods Pro (2ª Geração)',
+      productName: 'Edifier - Fone de ouvido BLuetoth 5,1 W800BT',
       rating: '9,7',
       features:
-        'Cancelamento ativo de ruído, equalização adaptativa, resistência à água e suor (IPX4).',
-      amazonLink: 'https://www.amazon.com',
+        'Qualidade do som: equilibrio entre médio, graves e agudos e um som limpo e claro',
+      features2:
+        'Duração da bateria: muito elogiada, com relato de uso por dias ou até semanas',
+      features3:
+        'Conforto e Ergonomia: Desegin e as almofadas macias foram destacados como diferenciais',
+      amazonLink: 'https://amzn.to/4hwfN4I',
     },
   ],
 };
