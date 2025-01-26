@@ -29,7 +29,7 @@ const Products = () => {
         <img
           src={`/capa-produtos/${category.category.toLowerCase()}.png`}
           alt={category.category}
-          className='object-cover object-right h-full'
+          className='object-cover h-full w-full'
         />
 
         {/*<div className='absolute flex flex-col right-4 top-7 md:top-20 xl:top-24 text-[#F2F2F2] font-[Montserrat]'>

@@ -42,7 +42,7 @@ const roboAspirador = {
       productName: 'Xiaomi - Robot Vacuum s20+',
       rating: '9,9',
       features:
-        'Forte sucção inclusive na limpeza de rapetes e sujeiras mais difíceis, aspirando e passando pano com precisão',
+        'Forte sucção inclusive na limpeza de tapetes e sujeiras mais difíceis, aspirando e passando pano com precisão',
       features2:
         'Funcionalidade de mapeamento da casa, controle por aplicativo e configurações simples.',
       features3: 'Opera em silêncio, facil de limpar e conversa em português',
