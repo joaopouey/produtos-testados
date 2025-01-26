@@ -38,30 +38,40 @@ const roboAspirador = {
   products: [
     {
       rank: 'TOP 1',
-      imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
-      productName: 'Robô Xiaomi',
+      imageSrc: '/foto-produtos/robo-aspirador-1.jpg',
+      productName: 'Xiaomi - Robot Vacuum s20+',
       rating: '9,9',
       features:
-        'Limites virtuais, limpeza personalizada avançada, mapeamento e navegação a laser de precisão, evita obstáculos.',
-      amazonLink: 'https://www.amazon.com',
+        'Forte sucção inclusive na limpeza de rapetes e sujeiras mais difíceis, aspirando e passando pano com precisão',
+      features2:
+        'Funcionalidade de mapeamento da casa, controle por aplicativo e configurações simples.',
+      features3: 'Opera em silêncio, facil de limpar e conversa em português',
+      amazonLink: 'https://amzn.to/3E4kPqH',
     },
     {
       rank: 'TOP 2',
-      imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
-      productName: 'Robô aspirador de pó XIAOMI Mop3',
-      rating: '9,8',
+      imageSrc: '/foto-produtos/robo-aspirador-2.jpg',
+      productName: 'Xiaomi - Robô aspirador de pó inteligente Mop 2',
+      rating: '9,7',
       features:
-        'Limites virtuais, mapeamento inteligente, navegação otimizada.',
-      amazonLink: 'https://www.amazon.com',
+        'Excelente aspiração eficaz removendo poeira, sujeira e pelos de animais, inclusive em tapetes',
+      features2:
+        'Facilidade de configurar, de criar barreiras virtuais, divisão de ambientes e mapeamento',
+      features3:
+        'Quem tem crianças e pet elogia muito a função de aspirar e já passar pano',
+      amazonLink: 'https://amzn.to/4jt3bxd',
     },
     {
       rank: 'TOP 3',
-      imageSrc: '/foto-produtos/robo-1-xiaomi-mop2.jpg',
-      productName: 'Robô aspirador de pó XIAOMI Mop1',
-      rating: '9,7',
+      imageSrc: '/foto-produtos/robo-aspirador-3.jpg',
+      productName: 'Xiaomi - Robot Vacuum s10',
+      rating: '9,6',
       features:
-        'Sistema de limpeza profunda, design compacto, navegação precisa.',
-      amazonLink: 'https://www.amazon.com',
+        'Elogiado por pessoas com rinite e alergias pela aspiração e passagem de pano removendo todo tipo de sujeira e partículas',
+      features2:
+        'Mapeamento, barreiras virtuais, facilidade de uso e programação de horários também são bastante valorizados',
+      features3: 'Muito elogiado por quem tem pets e crianças',
+      amazonLink: 'https://amzn.to/40MmOsB',
     },
   ],
 };

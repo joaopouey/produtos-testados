@@ -39,29 +39,38 @@ const liquidificador = {
     {
       rank: 'TOP 1',
       imageSrc: '/foto-produtos/liquidificador-1.jpg',
-      productName: 'Liquidificador Arno Power Max',
-      rating: '9,9',
+      productName: 'Electrolux - Liquidificador inox com jarra de vidro 1,5L',
+      rating: '9,7',
       features:
-        'Potência de 1.000W, copo de 3L, 15 velocidades, lâminas de aço inoxidável.',
-      amazonLink: 'https://www.amazon.com',
+        'Copo Resistente, fácil de limpar e não absorve cheiro nem manchas',
+      features2: 'Design bonito e moderno muito elogiado pelos clientes',
+      features3:
+        'Ele é frequentemente descrito como robusto, resistente e bem construído',
+      amazonLink: 'https://amzn.to/42uTMzg',
     },
     {
       rank: 'TOP 2',
       imageSrc: '/foto-produtos/liquidificador-2.jpg',
-      productName: 'Liquidificador Oster Pro Blender',
-      rating: '9,8',
+      productName: 'Philips - Liquidificador série 5000',
+      rating: '9,5',
       features:
-        'Copo de vidro resistente a temperaturas, 1.400W de potência, tritura gelo com facilidade.',
-      amazonLink: 'https://www.amazon.com',
+        'Potência e Desempenho: processa alimentos rapidamentes e tritura ingredientes duros como gelo e batata doce crua',
+      features2: 'Remoção das lâminas facilita muito a limpeza',
+      features3:
+        'O Design moderno e a resistência dos materiais são frequentemente elogiados',
+      amazonLink: 'https://amzn.to/4hujlEO',
     },
     {
       rank: 'TOP 3',
       imageSrc: '/foto-produtos/liquidificador-3.jpg',
-      productName: 'Liquidificador Philips Walita Avance',
-      rating: '9,7',
-      features:
-        'Lâminas removíveis, função pulsar, design compacto, copo de tritan de 2,2L.',
-      amazonLink: 'https://www.amazon.com',
+      productName: 'Oster - Liquidificador 1400 Full',
+      rating: '9,5',
+      features: 'Potência elevada ótima para triturar elementos duros',
+      features2:
+        'Copo de tamanho grande e lâminas removíveis facilitam a limpeza',
+      features3:
+        'Design bonito e muito robusto, considerado um dos melhores custo benefício do mercado',
+      amazonLink: 'https://amzn.to/3PSit10',
     },
   ],
 };
