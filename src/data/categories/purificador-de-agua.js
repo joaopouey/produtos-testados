@@ -42,7 +42,11 @@ const purificadorAguaGelada = {
       productName: 'Purificador de Água gelada Electrolux PE12G',
       rating: '9,6',
       features:
-        'Powerjet: enche o copo 4x mais rápido, painel touch para seleção de temperatura, filtro com vida útil de 3.000 ou 6 meses,  tamanho compacto e tecnologia ACQUA PURE.',
+        'Eficiência e qualidade da água: água filtrada com excelente qualidade, a temperatura da água gelada é excelente',
+      features2:
+        'Design compacto, moderno e elegante, fácil de instalar em bancada ou parede',
+      features3:
+        'Simplicidade na instalação, operação e troca de filtro, com manuais claros e bem explicados',
       amazonLink: 'https://amzn.to/40nJ7Ui',
     },
     {
@@ -51,7 +55,11 @@ const purificadorAguaGelada = {
       productName: 'Purificador de Água Refrigerado IBBL New E-Due Equilibrium',
       rating: '9,4',
       features:
-        'Design Slim, Opção de água natural, gelada ou misturada. Filtro com vida útil de 3.000 litros ou 6 meses, reduz a acidez e equilibra o ph em 7 etapas de purificação.',
+        'Água filtrada é limpa sem gosto de cloro ou plásticos, a filtragem é muito elogiada pelos usuários',
+      features2:
+        'Bonito, compacto e fácil de instalar, se adaptando bem em diversos ambientes',
+      features3:
+        'Embora o reservatório seja de 800ml atende bem ao uso doméstico, o resfriamento é muito elogiado',
       amazonLink: 'https://amzn.to/4h2GKgK',
     },
     {
@@ -60,7 +68,11 @@ const purificadorAguaGelada = {
       productName: 'Purificador de Água Consul CPB34AF',
       rating: '9,0',
       features:
-        'Filtragem com máxima redução de cloro e retenção de partículas, água natural purificada até sem energia elétrica, 2 temperaturas: natural e gelada.',
+        'Água limpa, sem gosto, comparável a agua mineral, filtragem muito elogiada',
+      features2:
+        'design compacto e instalação simples, feita pelos próprios usuários sem dificuldades',
+      features3:
+        'Temperatura da água gelada é considerada agradável, destaque também para o baixo consumo de energia',
       amazonLink: 'https://amzn.to/4hm3VlS',
     },
   ],
